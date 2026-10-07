@@ -1,0 +1,198 @@
+```css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f6ff;
+    color: #333;
+}
+
+/* Navigation Bar */
+
+nav {
+    background-color: #1d3557;
+    padding: 20px;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+    margin-right: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #90caf9;
+}
+
+/* Home Page */
+
+.home {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #dbeafe;
+}
+
+.home h1 {
+    color: #1d3557;
+    font-size: 40px;
+}
+
+.home p {
+    font-size: 18px;
+}
+
+.home a {
+    display: inline-block;
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin-top: 15px;
+}
+
+/* Services */
+
+.services {
+    text-align: center;
+    padding: 40px;
+}
+
+.card {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    vertical-align: top;
+}
+
+.card h2,
+.card h3 {
+    color: #1d3557;
+}
+
+/* Booking Form */
+
+.form {
+    width: 450px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.form h1 {
+    text-align: center;
+    color: #1d3557;
+}
+
+.form label {
+    display: block;
+    margin-top: 15px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.form textarea {
+    height: 80px;
+}
+
+.form button {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #1d4ed8;
+}
+
+/* View Booking */
+
+.box {
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.box h1 {
+    text-align: center;
+    color: #1d3557;
+}
+
+.box input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.box button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+
+.details {
+    margin-top: 25px;
+    padding: 15px;
+    background-color: #eef4ff;
+}
+
+.details p {
+    margin: 10px;
+}
+
+/* Contact Page */
+
+.contact {
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.contact h1 {
+    color: #1d3557;
+}
+
+.contact p {
+    font-size: 17px;
+    margin: 15px;
+}
+
+/* Error Message */
+
+.error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+```
